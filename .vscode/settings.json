@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.frag": "glsl",
+        "__config": "cpp",
+        "__cxx_version": "cpp",
+        "atomic": "cpp",
+        "bitset": "cpp",
+        "locale": "cpp",
+        "type_traits": "cpp",
+        "algorithm": "cpp"
+    }
+}
