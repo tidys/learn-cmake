@@ -7,6 +7,6 @@ include_directories(${PROJECT_SOURCE_DIR}/../lib)
 
 aux_source_directory(./ SRCS)
 add_executable(demo ${SRCS})
-
-target_link_libraries(demo lib)
+# 将lib链接到程序
+target_link_libraries(demo lib) 
  
