@@ -1,5 +1,5 @@
 #include <iostream>
-#include "lib/lib.h"
+#include "lib.h"
 #include "test.h"
 int main(int, char**) {
     auto lib=new Lib();
