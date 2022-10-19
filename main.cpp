@@ -1,5 +1,8 @@
 #include <iostream>
-
+#include "lib/lib.h"
+#include "test.h"
 int main(int, char**) {
-    std::cout << "Hello, world!\n";
+    auto lib=new Lib();
+    lib->test();
+    std::cout << "Hello, world!\n"<< test::getN();
 }
