@@ -1,4 +1,5 @@
 #include "lib.h"
-void Lib::test(){
-    std::cout<<"lib test ...\n";
+void Lib::test()
+{
+    std::cout << "lib test ...\n";
 }

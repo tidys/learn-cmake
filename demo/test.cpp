@@ -12,6 +12,7 @@ int test::getNumber()
 {
     return 123;
 }
-int test::getN(){
+int test::getN()
+{
     return globalValue;
 }

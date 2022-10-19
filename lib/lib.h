@@ -1,5 +1,6 @@
 #include <iostream>
-class Lib{
-    public:
+class Lib
+{
+public:
     void test();
 };
