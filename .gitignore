@@ -1,3 +1,7 @@
 build/
 bin/
 .DS_Store
+CMakeFiles
+CMakeScripts
+cmake_install.cmake
+*.xcodeproj
