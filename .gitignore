@@ -5,3 +5,4 @@ CMakeFiles
 CMakeScripts
 cmake_install.cmake
 *.xcodeproj
+proj.mac
