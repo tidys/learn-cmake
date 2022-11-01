@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
 # 增加头文件目录
 include_directories(${PROJECT_SOURCE_DIR}/lib)
-add_definitions()
 add_compile_definitions(TEST=0)
 
 include(./lib/CMakeLists.txt)
