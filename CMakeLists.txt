@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(demo VERSION 0.1.0)
 set(CMAKE_CXX_STANDARD 17)
+
+find_package(Python3 COMPONENTS Interpreter Development REQUIRED)
+message(${Python3_INCLUDE_DIRS})
+
 # 设置输出目录
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
 # 增加头文件目录
