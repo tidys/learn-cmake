@@ -1,5 +1,6 @@
 #include <iostream>
 #include "lib.h"
+#include "dll.h"
 #include "test.h"
 #include <time.h>
 void getRunTime()
@@ -20,6 +21,8 @@ int main(int, char **)
 {
     auto lib = new Lib();
     lib->test();
+    auto dll = new Dll();
+    dll->test();
 #ifdef TEST
     if (TEST == 1)
     {
@@ -34,4 +37,5 @@ int main(int, char **)
     std::cout << "no define TEST";
 #endif
     getRunTime();
+    system("pause");
 }

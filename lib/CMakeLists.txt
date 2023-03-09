@@ -9,4 +9,4 @@ source_group("src" FILES ${lib_src})
 # target_sources(${LIB_NAME} PRIVATE ${SRC})
 
 # 要放在add_library后边
-target_include_directories(${LIB_NAME} INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/)
+target_include_directories(${LIB_NAME} INTERFACE ${CMAKE_CURRENT_LIST_DIR}/)
