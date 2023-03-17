@@ -6,3 +6,7 @@ CMakeScripts
 cmake_install.cmake
 *.xcodeproj
 proj.mac
+android-lib/android-ndk-r14b-linux-x86_64.zip
+android-lib/android-ndk-r14b/
+dll/android-ndk-r14b/
+dll/android-ndk-r14b-linux-x86_64.zip
