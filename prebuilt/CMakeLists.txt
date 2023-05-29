@@ -4,5 +4,4 @@ set_target_properties(${DLL_NAME} PROPERTIES
     IMPORTED_IMPLIB ${CMAKE_CURRENT_LIST_DIR}/dll.lib
     IMPORTED_LOCATION ${CMAKE_CURRENT_LIST_DIR}/dll.dll)
 
-target_include_directories(${DLL_NAME} INTERFACE
-    ${CMAKE_CURRENT_LIST_DIR})
+target_include_directories(${DLL_NAME} INTERFACE ${CMAKE_CURRENT_LIST_DIR}/)

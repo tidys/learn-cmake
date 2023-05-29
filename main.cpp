@@ -3,6 +3,8 @@
 #include "dll.h"
 #include "test.h"
 #include <time.h>
+#include <Windows.h>
+using namespace std;
 void getRunTime()
 {
     clock_t t1 = clock();
@@ -14,13 +16,13 @@ void getRunTime()
     //     arr[i] = 100;
     // }
     clock_t diff = clock() - t1; // ms
-    std::cout << "\ntime: "<< diff<<"ms\n";
+    std::cout << "\ntime: " << diff << "ms\n";
     delete[] arr;
 }
 int main(int, char **)
 {
-    auto lib = new Lib();
-    lib->test();
+    // auto lib = new Lib();
+    // lib->test();
     auto dll = new Dll();
     dll->test();
 #ifdef TEST
