@@ -4,6 +4,7 @@
 #include "test.h"
 #include <time.h>
 #include <Windows.h>
+#include "vld.h"
 using namespace std;
 void getRunTime()
 {
@@ -21,10 +22,11 @@ void getRunTime()
 }
 int main(int, char **)
 {
+    new int();
     // auto lib = new Lib();
     // lib->test();
-    auto dll = new Dll();
-    dll->test();
+    //auto dll = new Dll();
+    //dll->test();
 #ifdef TEST
     if (TEST == 1)
     {

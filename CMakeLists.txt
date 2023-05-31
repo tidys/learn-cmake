@@ -23,8 +23,13 @@ file(GLOB app_src
     ${CMAKE_CURRENT_LIST_DIR}/*.cpp)
 add_executable(${app} ${app_src})
 
+target_include_directories(${app} PUBLIC ${CMAKE_CURRENT_LIST_DIR}/vld)
+
 # 将lib链接到程序
-target_link_libraries(${app} PRIVATE lib dll)
+target_link_libraries(${app} PRIVATE lib dll
+
+    "${CMAKE_CURRENT_LIST_DIR}/vld/vld.lib"
+)
 
 # 使用自定义文件夹，将lib放到3rd文件分组下
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
